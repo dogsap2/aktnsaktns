@@ -177,7 +177,7 @@ b.max-bold{ font-weight: 700; }
 
 .portfolio-section{ position: relative; }
 
-.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
+.portfolio-section .portfolioFilter{ margin-top: 60px; color: #333; }
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
