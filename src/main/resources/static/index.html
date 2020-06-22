@@ -23,9 +23,33 @@
 
 <link href="02-cv-boxed/css/responsive.css" rel="stylesheet">
 
+
+<style>
+.port-list span {
+        position: relative;
+}
+    
+  .port-list span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: -10px;
+    top: 10px;
+    border-radius: 100%;
+    background-color: orange;
+  }
+</style>
+
+<!-- 썸네일 -->
+<!-- <meta property="og:type" content="website">
+<meta property="og:title" content="님사이트제목">
+<meta property="og:description" content="님사이트설명">
+<meta property="og:image" content="images/gage.jpg">
+<meta property="og:url" content="http://aktnsaktns.cafe24.com/">-->
 </head>
 <body>
-
 	<section class="intro-section section">
 		<div class="container">
 			<div class="heading-wrapper">
@@ -218,41 +242,49 @@
 			<div class="portfolioContainer  margin-b-50">
 				<div class="p-item web-design">
 					<img src="images/gage.jpg"alt="" style="cursor: pointer;" onclick="window.open('http://aktnsaktns.cafe24.com/cashbook/');">
-					<div align="center" style="font-size:20px">가게부 프로젝트<br>
-						<div style="font-size:14px" class="font-lite-black">
-							FRONT : HTML, CSS, BootStrap<br>
-							LANGUAGE : JavaScript,Java<br>
-							TOOL :	Spring,MySql,git<br>
-							DB:	MariaDB<br>
-							OS:WINDOW
+					<div align="center">
+					<h4 style="margin: -10px 0; font-size:22px"><br><strong>가계부 프로젝트</strong></h4><br>
+					<h5 style="margin: -20px 0;color:orange;"><strong>spring툴을 이용하여 제작한 개인 프로젝트 </strong></h5><br>
+						<p class="port-list">
+						    <span>FRONT-END:HTML,CSS,BootStrap</span><br>
+						    <span>BACK-END:Spring boot,Thymeleaf</span><br>
+						    <span>LANGUAGE:Java,javaScript(JQuery)</span><br>
+						    <span>TOOL:STS4,MySql(Heidi SQL)</span><br>
+						    <span>DB:MariaDB 10.1</span><br>
+						    <span>OS:WINDOW 10</span>
+						  </p>
 						</div>
 					</div>
-				</div>
 				<!-- p-item -->
 				<div class="p-item branding" >
 					<img src="images/imp.jpg" alt="" style="cursor: pointer;" onclick="window.open('http://aktnsaktns.cafe24.com/Sakila/');">
-					<div align="center" style="font-size:20px">sakila 조별과제 프로젝트<br>
-						<div style="font-size:14px" class="font-lite-black">
-							FRONT : HTML, CSS, BootStrap<br>
-							LANGUAGE : JavaScript,Java<br>
-							TOOL :	Spring,MySql<br>
-							DB:	MariaDB<br>
-							OS:WINDOW
-						</div>
+					<div align="center">
+					<h4 style="margin: -10px 0; font-size:22px"><br><strong>sakila 조별과제 프로젝트</strong></h4><br>
+					<h5 style="margin: -20px 0; color:orange;"><strong>모델1 방식을 이용하여 제작한 팀 프로젝트 </strong></h5><br>
+						<p class="port-list">
+						     <span>FRONT-END:HTML, CSS, BootStrap</span><br>
+						    <span>BACK-END:Jsp</span><br>
+						    <span>LANGUAGE:Java</span><br>
+						    <span>TOOL:ECLIPSE,MySql(Heidi SQL)</span><br>
+						    <span>DB:MariaDB 10.1</span><br>
+						    <span>OS:WINDOW 10</span>
+						  </p>
 					</div>
-					
 				</div>
 				<!-- p-item -->
 				<div class="p-item graphic-design">
 					<img src="images/dang.jpg" alt="" style="cursor: pointer;" onclick="window.open('http://www.naver.com');">
-					<div align="center" style="font-size:20px">당근마켓 조별과제 프로젝트<br>
-						<div style="font-size:14px" class="font-lite-black">
-							FRONT : HTML, CSS, BootStrap<br>
-							LANGUAGE : JavaScript,Java<br>
-							TOOL :	Spring,MySql<br>
-							DB:	MariaDB<br>
-							OS:WINDOW
-						</div>
+					<div align="center">
+					<h4 style="margin: -10px 0; font-size:22px"><br><strong>당근마켓 조별과제 프로젝트</strong></h4><br>
+					<h5 style="margin: -20px 0; color:orange;"><strong>팀 프로젝트 </strong></h5><br>
+						<p class="port-list">
+						    <span>FRONT-END:HTML, CSS, BootStrap</span><br>
+						    <span>BACK-END:Spring boot,Thymeleaf</span><br>
+						    <span>LANGUAGE:Java,javaScript(JQuery)</span><br>
+						    <span>TOOL:STS4,MySql(Heidi SQL)</span><br>
+						    <span>DB:MariaDB 10.1</span><br>
+						    <span>OS:WINDOW 10</span>
+						  </p>
 					</div>
 				</div>
 			</div>
